@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.button-header {
+    height: 50px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.button-header-primary {
+    background-color: rgba(46, 53, 144, 0.8);
+    color: white;
+    font-weight: 300px;
+    font-size: 1rem;
+
+}
+
+.botaodif {
+    margin-bottom: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.inline{
+    display: inline;
+}
