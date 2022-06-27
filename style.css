@@ -2,14 +2,28 @@
     margin: 0;
     border: 0;
     padding: 0;
+    font-family: Poppins, sans-serif;
 }
 
-header {
+.header-row1 {
+    padding: 15px 0;
+    
+}
+.header-row {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
     width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+   
+}
+
+.header-rowgreen {
+    background-color: mediumseagreen;
+    font-size: 1.5em;
+    padding: 5px 0;
    
 }
 
@@ -22,19 +36,28 @@ header {
 
 .button-header-primary {
     background-color: rgba(46, 53, 144, 0.8);
-    color: white;
+    color: rgb(244, 238, 238);
     font-weight: 300px;
     font-size: 1rem;
+    width: 150px;
 
 }
 
-.botaodif {
-    margin-bottom: 0px;
-    padding: 0px;
-    border-radius: 0px;
-    background-color: transparent;
+.button-icon span {
+    font-size: 2em;
+}
+
+.button-icon {
+   background-color: transparent;
+   margin-left: 15px;
+
 }
 
 .inline{
     display: inline;
+}
+.buttons-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
