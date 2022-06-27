@@ -67,7 +67,7 @@
 .video-demo-wrapper {
     display: flex;
     justify-content: space-between;
-    background-color: royalblue;
+    background-color: rgba(46, 53, 144, 0.8);
     margin: 0 auto;
     width: 80%;
     padding-left: 80px;
@@ -76,13 +76,56 @@
     padding-bottom: 100px;
 }
 
-.title {
-    color: blueviolet;
-    font-size: 30px;
+.video-demo-wrapper h1 {
+    color: rgb(244, 238, 238);
+    font-size: 4em;
+    font-weight: 500;
+
 }
 
-.list-button {
-    width: 100px;
-    flex-direction: column-reverse;
+.video-demo-buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
 
+}
+
+.video-demo-buttons-wrapper h3 {
+    color: rgb(244, 238, 238);
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.video-demo-buttons-wrapper .button {
+    color: rgb(244, 238, 238);
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.video-demo-buttons-wrapper .button.primary {
+    background-color: mediumseagreen;
+}
+
+.video-demo-wrapper .buttons-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.buttons-wrapper .button.secundary {
+    background-color: transparent;
+    width: 250px;
+    margin-top: 60px;
+
+}
+
+.video-demo-buttons-wrapper .button p {
+    text-align: center;
+    flex: 1;
 }
