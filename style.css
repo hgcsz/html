@@ -5,6 +5,17 @@
     font-family: Poppins, sans-serif;
 }
 
+header {
+    position: fixed;
+    bottom: 100;
+    width: 100%;
+    background-color: white;
+}
+
+main {
+    padding: 126px;
+}
+
 .header-row1 {
     padding: 15px 0;
 
@@ -119,13 +130,65 @@
 }
 
 .buttons-wrapper .button.secundary {
+    display: flex;
+    align-items: center;
     background-color: transparent;
-    width: 250px;
+    width: 200px;
     margin-top: 60px;
-
+    color: rgb(244, 238, 238);
 }
 
 .video-demo-buttons-wrapper .button p {
     text-align: center;
     flex: 1;
+}
+
+.demo-wrapper-mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 80%;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.demo-wrapper-mid h1 {
+    flex: 2;
+    width: 50%;
+    /* margin-bottom: auto; */
+    font-size: 3em;
+    font-weight: 300;
+    /* border-color: red;; */
+    /* background-color: red; */
+    /* border-width: 10px; */
+    /* border-style: solid; */
+}
+
+.demo-wrapper-text {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    margin-bottom: 0;
+    margin-left: 150px;
+}
+
+.demo-wrapper-text>p+p {
+    margin-top: 10px;
+
+
+}
+
+.demo-wrapper-button {
+    margin-top: 60px;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 1em;
+    display: flex;
+    color: rgba(46, 53, 144, 0.8);
+
+
+
 }
