@@ -188,7 +188,11 @@ main {
     font-size: 1em;
     display: flex;
     color: rgba(46, 53, 144, 0.8);
+}
 
-
-
+.title-image {
+    font-size: 1.5em;
+    font: weight 300; 
+    padding-bottom: 20px;
+    color: #2e3590;
 }
